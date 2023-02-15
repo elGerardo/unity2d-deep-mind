@@ -1,2 +1,2 @@
-# white_room
-Unity 2D white room to do tests
+# Deep Mind
+Videogame done using Unity2D, call it Deep Mind
