@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: de7f299e3e2f11b4ba5e93fef1cc2d6f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroKnight_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10655d753d8984c40a0ebc5253771ca1
+      internalID: 28151067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 387
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2be3859c7462cb469e0fc927627a7d9
+      internalID: -282968922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc6e303fa4705d4e860daa35e637187
+      internalID: 1080703404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 387
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e368bbd9dcf65514493c11fe227a51be
+      internalID: -1139830755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf828e499fa6247b2cc932cb22dbbb
+      internalID: -565264272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_15
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 387
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0fc08ea92907049be02c3e51191851
+      internalID: -1637516240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 387
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f58b6150b0db41ab3da3e5eb2486f
+      internalID: -1904014539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroKnight_17
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 387
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43799231a94f904398907a4fc0d19f3
+      internalID: -1539599347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWalking_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 442
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2039cd83dfd0d4987b7760d87e7067
+      internalID: -801592453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HeroKnight_72: 1819762377
+      HeroKnight_87: -1335941457
+      HeroKnight_35: 1829585744
+      HeroKnight_64: -960732852
+      HeroKnight_14: -565264272
+      HeroKnight_13: -1139830755
+      HeroKnight_48: 1050173782
+      HeroKnight_88: 950823356
+      HeroKnight_92: 1836332149
+      HeroKnight_36: 1649365355
+      HeroKnight_8: 1662226836
+      HeroKnight_7: 525052645
+      HeroKnight_25: 631614366
+      HeroKnight_2: 1792494068
+      HeroKnight_34: -1043335576
+      HeroKnight_77: -600671715
+      HeroKnight_28: -799241543
+      HeroKnight_24: -337980508
+      HeroKnight_80: 1390348685
+      HeroKnight_15: -1637516240
+      HeroKnight_32: 1813076392
+      HeroKnight_90: -1241823138
+      HeroKnight_49: -648403386
+      HeroKnight_52: 928978162
+      HeroWalking_0: -801592453
+      HeroKnight_66: 654274781
+      HeroKnight_0: 401804684
+      HeroKnight_63: -1034996553
+      HeroKnight_38: -750201202
+      HeroKnight_39: -1178175278
+      HeroKnight_4: 1626975315
+      HeroKnight_82: -685144043
+      HeroKnight_16: -1904014539
+      HeroKnight_58: -996028893
+      HeroKnight_53: -1851587272
+      HeroKnight_74: 1860922875
+      HeroKnight_5: 1410898967
+      HeroKnight_47: -123771647
+      HeroKnight_84: -848368075
+      HeroKnight_29: 1921025798
+      HeroKnight_83: 791874167
+      HeroKnight_65: -1097351090
+      HeroKnight_43: 579651469
+      HeroKnight_61: 1678770619
+      HeroKnight_59: -1777683219
+      HeroKnight_62: -78410231
+      HeroKnight_21: -1793282647
+      HeroKnight_20: -460993748
+      HeroKnight_41: 1525788009
+      HeroKnight_81: 603186016
+      HeroKnight_76: 1999946881
+      HeroKnight_69: 1779215992
+      HeroKnight_44: 1986986874
+      HeroKnight_11: -282968922
+      HeroKnight_75: -1183734606
+      HeroKnight_19: 1386752555
+      HeroKnight_60: -71479439
+      HeroKnight_93: 1379882233
+      HeroKnight_50: 424595153
+      HeroKnight_18: 602197292
+      HeroKnight_78: 33935693
+      HeroKnight_40: 1689204601
+      HeroKnight_91: -1966301809
+      HeroKnight_46: 192528203
+      HeroKnight_12: 1080703404
+      HeroKnight_79: 257646376
+      HeroKnight_56: 1892287074
+      HeroKnight_71: -929936819
+      HeroKnight_67: 1310322571
+      HeroKnight_37: -502580577
+      HeroKnight_31: -1638776404
+      HeroKnight_89: -1573599965
+      HeroKnight_26: 987530502
+      HeroKnight_27: 1838141634
+      HeroKnight_42: -1206612371
+      HeroKnight_30: 1894584278
+      HeroKnight_10: 28151067
+      HeroKnight_6: -2125247025
+      HeroKnight_54: -2108533750
+      HeroKnight_22: 62373328
+      HeroKnight_9: 792538836
+      HeroKnight_57: 561029634
+      HeroKnight_68: 27126734
+      HeroKnight_3: -1815307361
+      HeroKnight_17: -1539599347
+      HeroKnight_55: -1229943400
+      HeroKnight_70: 847593164
+      HeroKnight_51: 663828392
+      HeroKnight_85: -528368495
+      HeroKnight_1: 886283487
+      HeroKnight_33: 444613319
+      HeroKnight_45: 1594589419
+      HeroKnight_23: 2104178699
+      HeroKnight_73: -811173927
+      HeroKnight_86: 205389140
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
