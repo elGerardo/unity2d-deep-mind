@@ -50,7 +50,7 @@ public class PlayerAtack : MonoBehaviour
 
             if (value.CompareTag("Enemy"))
             {
-                Debug.Log("hiting...");
+                Debug.Log("player hiting...");
                 //value.transform.GetComponent<Enemy>().TakeHit(damageHit);
                 
             }
