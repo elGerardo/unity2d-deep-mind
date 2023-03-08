@@ -27,8 +27,8 @@ public class PlayerController : MonoBehaviour
 
         Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
 
-        if (Horizontal < 0.0f) transform.localScale = new Vector3(-2f, 2.0f, 1.0f);
-        else if (Horizontal > 0.0f) transform.localScale = new Vector3(2f, 2.0f, 1.0f);
+        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1f, 1.0f, 1.0f);
+        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1f, 1.0f, 1.0f);
 
         Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
 
