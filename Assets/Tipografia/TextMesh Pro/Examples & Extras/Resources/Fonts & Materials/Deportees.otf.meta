@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 88920e1cc49220041a9adb77cfae5026
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Deportees
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f6cc424843a7749449f394eef63cd975, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
