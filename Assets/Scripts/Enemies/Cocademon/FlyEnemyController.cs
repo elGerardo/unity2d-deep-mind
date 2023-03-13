@@ -32,8 +32,8 @@ public class FlyEnemyController : MonoBehaviour
         if (DistanceFromPlayer < LineOfSite && DistanceFromPlayer > ShootingRange)
         {
             Vector3 direction = MainPlayer.transform.position - transform.position;
-            if (direction.x >= 0.0f) transform.localScale = new Vector3(3.5f, 3.5f, 1.0f);
-            else transform.localScale = new Vector3(-3.5f, 3.5f, 1.0f);
+            if (direction.x >= 0.0f) transform.localScale = new Vector3(2.5f, 2.5f, 1.0f);
+            else transform.localScale = new Vector3(-2.5f, 2.5f, 1.0f);
 
             transform.position = Vector2.MoveTowards(this.transform.position, Player.position, Speed * Time.deltaTime);
         }
