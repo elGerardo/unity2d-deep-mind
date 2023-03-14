@@ -10,40 +10,55 @@ public class PlayerController : MonoBehaviour
     public float JumpForce;
 
     private Rigidbody2D Rigidbody2D;
-    //private Animator Animator;
+    private Animator Animator;
     private float Horizontal;
-    private bool Grounded;
+    private bool canJump;
+
+    public bool isDamaged;
 
     // Start is called before the first frame update
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
-        //Animator = GetComponent<Animator>();
+        Animator = GetComponent<Animator>();
+        isDamaged = false;
     }
 
+    
     // Update is called once per frame
     void Update()
     {
-
-        Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
-
-        if (Horizontal < 0.0f) transform.localScale = new Vector3(-1f, 1.0f, 1.0f);
-        else if (Horizontal > 0.0f) transform.localScale = new Vector3(1f, 1.0f, 1.0f);
-
-        Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
-
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
+        if(isDamaged)
         {
-            Grounded = true;
+            Animator.SetBool("isDamaged", true);
         }
-        else Grounded = false;
-
-        if (Input.GetKeyDown(KeyCode.W) && Grounded)
+        else
         {
-            Jump();
+            Animator.SetBool("isDamaged", false);
+            Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
+
+            if (Horizontal < 0.0f) transform.localScale = new Vector3(-1f, 1.0f, 1.0f);
+            else if (Horizontal > 0.0f) transform.localScale = new Vector3(1f, 1.0f, 1.0f);
+
+            if (Input.GetKeyDown(KeyCode.W) && canJump)
+            {
+                Jump();
+                canJump = false;
+            }
         }
 
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "UnderFloor" || 
+            collision.gameObject.name == "HouseFloor" || 
+            collision.gameObject.name == "OutFloor")
+        {
+            canJump = true;
+        }
+    }
+
 
     private void FixedUpdate()
     {

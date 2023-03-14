@@ -22,6 +22,9 @@ public class GuardianController : MonoBehaviour
 
     public GameObject MainPlayer;
 
+    [SerializeField]
+    private PlayerController playerController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -76,7 +79,6 @@ public class GuardianController : MonoBehaviour
             //validate atack or walk
             if (DistanceFromPlayer < DistanceCanAtack) 
             {
-                Debug.Log("distacne from player...");
                 Collider2D[] objects = Physics2D.OverlapCircleAll(controlAtack.position, radiousAtack);
 
                 foreach (Collider2D value in objects)
@@ -87,13 +89,13 @@ public class GuardianController : MonoBehaviour
                         Animator.SetBool("isAtacking", true);
                         playerCanBeAtacked = true;
                         atackTimer = 0f;
-                        //transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, Player.position.x, Speed * Time.deltaTime), transform.position.y);
+                        //asdasd
                     }
 
                     if (playerCanBeAtacked && atackTimer >= 0.3 && atackTimer < 0.415)
                     {
                         playerCanBeAtacked = false;
-                        Debug.Log("enemy hitting...");
+                        FindObjectOfType<PlayerController>().isDamaged = true;
                     }
 
                     if (atackTimer >= 0.415)
@@ -114,6 +116,12 @@ public class GuardianController : MonoBehaviour
             Animator.SetBool("isAtacking", false);
             EnemyPatrol();
         }
+
+        if (atackTimer >= 0.5)
+        {
+            FindObjectOfType<PlayerController>().isDamaged = false;
+        }
+
         atackTimer += Time.deltaTime;
 
     }
