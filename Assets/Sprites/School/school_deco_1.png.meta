@@ -1,0 +1,3049 @@
+fileFormatVersion: 2
+guid: 717c991911b438d4ab74b9fb1e2e53a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: school_deco_1_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 694
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18501b39584e94c4a860e3e8b8ea002e
+      internalID: -1361641871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 694
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd73f1bef1c4554782b5c2ec3b330f2
+      internalID: -1052478171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 694
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28343d6dca9737147be98f97d8d85f84
+      internalID: -1481562504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 698
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd91a62f41a71244285c9002cc0c49a3
+      internalID: -2044719351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 654
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe4b4224118564abd6850c4255c7e3
+      internalID: -1294322579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_5
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 674
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daba8dcba25d51f4c944563abbdbb124
+      internalID: -1307957916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 724
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a92f562a9b781647abe5ae4055194df
+      internalID: -39148628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 724
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22321c32c331994b9bfa8ab7ad554e8
+      internalID: 1676390552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 718
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25cdccdadb2184dbdaa62168c14c62
+      internalID: -353271574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_9
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 689
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380acba880c401f44bd85eec132f4b7c
+      internalID: -846393638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 586
+        width: 152
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691aebc84bdbef34c8720b58c4374701
+      internalID: -759443302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 661
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268c66bc406cd14a8b6764a996e7de9
+      internalID: 18182604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5ecc05be4c50848ac65786a5da839b
+      internalID: 315416875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 591
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f5c5e659f110a49a7ed2c90f0942e6
+      internalID: 1405295159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 595
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73708e31fb0e88e44bf4970cc9db3f01
+      internalID: -1102184948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 504
+        width: 69
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28c4b578388ae148a917779bd673c24
+      internalID: 1064786685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 576
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7542dba6bc24f45ae5c6cabd46792b
+      internalID: -129499686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 576
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e87ce635204c945a530b1a0d88f5c2
+      internalID: -1424739569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 586
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fa33b91ea31745b06b225661ca1e0
+      internalID: -397963505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_19
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 582
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd1a4fc3623ae42bcdc856e5187c4f
+      internalID: -2116133048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_20
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 587
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68f9bdd2afe6ff46904834018c155b3
+      internalID: 285686239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 135
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9874f80b933906747994d149573134d5
+      internalID: 1112559418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 497
+        width: 111
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc5913ee096ed4c93134cc7076a931
+      internalID: -404902382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 483
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed736542ba7ba3541b1f5400ce9d4730
+      internalID: -986437324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_24
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 535
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9e3cebaf9556a4f9354af24644b904
+      internalID: -261456849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 426
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9867560c00de447b2a87119d9a3761
+      internalID: 669286922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 438
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80548e79e2be82a4b9af4d0c516e0421
+      internalID: -2098502012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_27
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 454
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15adafa89e3d44a43b0057c206a43396
+      internalID: 1748407179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_28
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 461
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67fd6f059c97fd44b465ef263321c8a
+      internalID: 595141198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_29
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 442
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d6904b3f2f9b349aa4cad854dc20c0
+      internalID: 894789059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 455
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac775b10b1d405a44a8ce95eee0bc378
+      internalID: -1728908221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_31
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 455
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac60c7b3e1cf76b4187533926532a3b6
+      internalID: -909003617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_32
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 448
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79765ed8d0b1cf46b686c3fae7dae83
+      internalID: 577256366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_33
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 452
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b66a2bcb053a4b857d7879eda0ed8
+      internalID: -1300591993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_34
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 426
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5ce8f070879f041a5ca21ba868cbf0
+      internalID: 1943337558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_35
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 437
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52763e5e84dd24b4597be292a550c752
+      internalID: -1349615014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_36
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 437
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28464007a1df1fa4b9c174265da2d2db
+      internalID: -1677889270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_37
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 442
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4272890fadaa4e9438237ea959aa6f62
+      internalID: 844754852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_38
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 433
+        width: 115
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334b50405b3894048ba3180bbf722723
+      internalID: 2132803937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_39
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 445
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73ceb2da835d547b22025550d42b11
+      internalID: 95139412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_40
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 447
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c742d7aecdf4d4b912d6589b680608
+      internalID: -178039907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_41
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 450
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aeac3df9521dd4da9121234aa79902
+      internalID: 1553388985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 390
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2016adae3783d6448fa53ab401971d7
+      internalID: -2139531518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_43
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 391
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf4bac872a3f584b86f798d8a320f7f
+      internalID: 1566937658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 387
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1d6742b8037cc47ba7293cd195a282
+      internalID: 599764650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 391
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1e7d5a5fbd3c4d90d312f19c6c8c8
+      internalID: 388961312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 403
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f421ddc04798e46a8902718e5359ce
+      internalID: 256542032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_47
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 415
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1932b08aeded144a9c1006934341eeb
+      internalID: -5256852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 410
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7dff69a46b0b34cb8264af8e6ca2ff
+      internalID: -1099712859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 414
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017d911947f5ba0439e4e72c1821a604
+      internalID: 855071258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 384
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38640a1e5365e84ebf577572be6266e
+      internalID: 132019667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_51
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 336
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89ef4fca01cb094c84332c454559b39
+      internalID: -938082619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_52
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 394
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe435719fd094e47b9716e3bf7c7b07
+      internalID: -90966262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_53
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 389
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b02d7f74d1be54496c93bfc9dd9323
+      internalID: -882525494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_54
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 393
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725b3b4344dc6c74da201b07339aa19d
+      internalID: -279413579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_55
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 385
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f90b9200f4de4fb9773316271fe3e
+      internalID: -1325008831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_56
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 387
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c774108bbf328654292ff3b3036118eb
+      internalID: 1845575989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_57
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 389
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0082c4696e2188a44851392a9fae2607
+      internalID: -224402725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_58
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 389
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72be4bbd2407901498e62ce028da93e8
+      internalID: 146349950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_59
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 390
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6000761abb76714a9bc4476a5105c63
+      internalID: -113022754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 349
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862e3afc190b315438cc904987a7b84b
+      internalID: -1324033482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 355
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6793d933636ea4c8c0728774ccdfb7
+      internalID: -1044441874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 355
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb8dc03b2437514db8fc99fa1e3bc51
+      internalID: -659586248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_63
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 351
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa28a8142a500ac4cb18a0330cf4c933
+      internalID: -177783988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 356
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1e02f56b8cb6540a4f3e800cf38dcd
+      internalID: 1601390007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_65
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 351
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724d93d6b2a53c45b4845248bce61ca
+      internalID: 2056668258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_66
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 354
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032b99848f4ebd4997693a6fe66971e
+      internalID: -410584659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_67
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 345
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee85565858eb84faef4407ef3d6cb0
+      internalID: -1205706031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_68
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 301
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7f203e7c67a2429116eb359a33a86
+      internalID: 88881543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_69
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 356
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfdd2c57ff8e1c43ba01cb3945c5caf
+      internalID: -1829771490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_70
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 349
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655946c32dbbd684784f3bb3305cb2d8
+      internalID: -94729380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_71
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 307
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87473029d7c5f54198ef37ffb3b0969
+      internalID: 1655212297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_72
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 289
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe74dd9094558774da2151245b56216f
+      internalID: -636661962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_73
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 349
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a4a28b27b02148afad00e74cdb0de
+      internalID: -988038653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_74
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 338
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e1f9f2018428149824837c284f0e05
+      internalID: 803249819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_75
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 339
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fc56bdc90caee4589ee47a2bb2f02a
+      internalID: -1825335018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_76
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 337
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc0ad65c9691bf47b80b6534d7ff4b0
+      internalID: 38161971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_77
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 348
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55c8d8dfe36f3542a6b37099080dca3
+      internalID: 1738575685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_78
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 341
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91698bdcc36266d49848e97d7f31e919
+      internalID: 1298936139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_79
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 290
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81854f8deedc43741bf8373da4ee2f32
+      internalID: -496656791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 303
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072cecec435a72a44bdcabd880eddbd1
+      internalID: 261525768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_81
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 305
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19826b07fb9e844dbc1d90e1d7c4aca
+      internalID: -1093148079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_82
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 294
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d378ae4aeeb622449adb82fa93e4f5c
+      internalID: -1651482029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_83
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 291
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c790acf8595685498667ad6c6621b48
+      internalID: -291707526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_84
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 286
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d8d49df474c874d8a13d7ce14739bb
+      internalID: 1840582369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_85
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 292
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097e622eef83f66438bff330d3968888
+      internalID: 303949548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_86
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 261
+        width: 123
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60ecd2ccbfcb3740962980b1323a6e8
+      internalID: 1727982319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_87
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 292
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f435a1751568f947bdaf04a1f25acdd
+      internalID: -1910505847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_88
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 292
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0fabb8b44630e4493f6e7a98367486
+      internalID: 487390389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_89
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 256
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7e990160b2cf4c88593095db44e3c
+      internalID: 952520417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_90
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 254
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdeee3e92e9e7c418b5747ce48fe6b9
+      internalID: -1710428204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 245
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcbecb3e0876a9449530fd188416091
+      internalID: -2089605918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_92
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 254
+        width: 85
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e0e2f762d26aa449dbfe45b7552277
+      internalID: 1518923945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_93
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 223
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ec042d9da7eb47917933d7333d4d7
+      internalID: -1784505302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_94
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 194
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4929a42a1051904db7c81657b001c42
+      internalID: 14932783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_95
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 200
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ca7ca1159076d408ca2e64b49bd00a
+      internalID: -522812463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_96
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 195
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56748d57ef706e468599159677ac84b
+      internalID: 1859522230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_97
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 246
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437a484c217be349bf0cafb5773f14f
+      internalID: 1083428141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_98
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 241
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f335f63209bdd4881dc2d41433e204
+      internalID: -1983379113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_99
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf817ff530d8ab4bb675283187b77d9
+      internalID: -1227336719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_100
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1966c71c031b8489be1cb719d5dd82
+      internalID: -1686270218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_101
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 201
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42f4ef019690b49a5a2232aecf56fe
+      internalID: 1885663937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_102
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 200
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d807cea17af5b4a837a89e597f0445
+      internalID: 1330738204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_103
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 202
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e8635c9bda3a144ab23bacdb61df63
+      internalID: 2146009787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_104
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 217
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f3d6e1c22fbf948a70d3cd4b6e0035
+      internalID: -1643976348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_105
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 170
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b667aad4c5351154ca296c442fcdd7f5
+      internalID: -1366222195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_106
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 174
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61824c2c55a7708448c56e082c6d94d9
+      internalID: 752280589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_107
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 177
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d042f7571be6489d3018c01d7bfe5
+      internalID: -285470864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_108
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 205
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7c5341abe96b4cad2cac74af2abd1
+      internalID: -700435654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_109
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 194
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5274ad5e8fc7c594cbe8975b7530e75a
+      internalID: -850836878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_110
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 194
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6495ffdaddbb6749ab688e4429d23fa
+      internalID: -857325121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_111
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 162
+        width: 77
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056527e078df84843b38025cd5c520c3
+      internalID: 994035173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_112
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4693d6dbf77591c429d19fcaefc4d86b
+      internalID: -1736235481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_113
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 116
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738e09ebb1668664988804d959a495dd
+      internalID: -1023357232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 125
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aaf31b70cdee540880789e7333b6d7
+      internalID: -1776146314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_115
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 114
+        width: 227
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2458a1e4bcb9ae41be74db95af9d077
+      internalID: 331268166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_116
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 96
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5da14f686d84b45b4ea48b8276873b
+      internalID: 549186974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_117
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89152e2a0c0fb74783620fa083d6c4b
+      internalID: -375464050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_118
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2614d25ebd3c40c45bf2e11075d5f03f
+      internalID: 2022581743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_119
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 96
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f64e546f115c24b89ffa7415811045
+      internalID: 1979867508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_120
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 96
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2a70d9daeb19a41a0d3045498342d7
+      internalID: 262630797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 60
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5c8848a85205e459a67a2d84e62d0d
+      internalID: -141907580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_122
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 21
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b6ad4a21975464a88d95ac5fe9c7e3
+      internalID: -1428777061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_123
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 21
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3584ba583650ec145a00fe235e3ac6ab
+      internalID: 222646408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_124
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 21
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0423698f0c2a5714c9a99595e17f5a35
+      internalID: 2090505586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_125
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 14
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038bddd937e74cd4ab650e9dd15ff3b1
+      internalID: -967921692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_126
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 49
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283e9c22f5d6164f8bbf6e416e59412
+      internalID: -735089717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_127
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 48
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d07902d598abcb47b5de3a478392a21
+      internalID: 452268128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_128
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 48
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e87832126ab4d64b97c3bb653de18e6
+      internalID: -511678478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_129
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 23
+        width: 288
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac59b41278628a41a4c32ce27f3efbb
+      internalID: -1685334531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_130
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 4
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dc4fd987a10324db9fb2292d8cecec
+      internalID: 645061547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_131
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102ef75255ff9b04c9e464185531edee
+      internalID: -1814535103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: school_deco_1_132
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18922614ac664145ab8c4a161ba33dc
+      internalID: 1060233733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      school_deco_1_24: -261456849
+      school_deco_1_72: -636661962
+      school_deco_1_132: 1060233733
+      school_deco_1_120: 262630797
+      school_deco_1_23: -986437324
+      school_deco_1_1: -1052478171
+      school_deco_1_33: -1300591993
+      school_deco_1_57: -224402725
+      school_deco_1_73: -988038653
+      school_deco_1_14: -1102184948
+      school_deco_1_39: 95139412
+      school_deco_1_117: -375464050
+      school_deco_1_48: -1099712859
+      school_deco_1_103: 2146009787
+      school_deco_1_110: -857325121
+      school_deco_1_75: -1825335018
+      school_deco_1_126: -735089717
+      school_deco_1_61: -1044441874
+      school_deco_1_68: 88881543
+      school_deco_1_29: 894789059
+      school_deco_1_121: -141907580
+      school_deco_1_70: -94729380
+      school_deco_1_47: -5256852
+      school_deco_1_116: 549186974
+      school_deco_1_100: -1686270218
+      school_deco_1_40: -178039907
+      school_deco_1_65: 2056668258
+      school_deco_1_122: -1428777061
+      school_deco_1_28: 595141198
+      school_deco_1_93: -1784505302
+      school_deco_1_107: -285470864
+      school_deco_1_99: -1227336719
+      school_deco_1_17: -1424739569
+      school_deco_1_16: -129499686
+      school_deco_1_108: -700435654
+      school_deco_1_8: -353271574
+      school_deco_1_96: 1859522230
+      school_deco_1_21: 1112559418
+      school_deco_1_128: -511678478
+      school_deco_1_3: -2044719351
+      school_deco_1_78: 1298936139
+      school_deco_1_88: 487390389
+      school_deco_1_104: -1643976348
+      school_deco_1_12: 315416875
+      school_deco_1_20: 285686239
+      school_deco_1_7: 1676390552
+      school_deco_1_127: 452268128
+      school_deco_1_45: 388961312
+      school_deco_1_69: -1829771490
+      school_deco_1_118: 2022581743
+      school_deco_1_130: 645061547
+      school_deco_1_66: -410584659
+      school_deco_1_82: -1651482029
+      school_deco_1_102: 1330738204
+      school_deco_1_50: 132019667
+      school_deco_1_71: 1655212297
+      school_deco_1_4: -1294322579
+      school_deco_1_49: 855071258
+      school_deco_1_58: 146349950
+      school_deco_1_89: 952520417
+      school_deco_1_34: 1943337558
+      school_deco_1_112: -1736235481
+      school_deco_1_27: 1748407179
+      school_deco_1_114: -1776146314
+      school_deco_1_15: 1064786685
+      school_deco_1_31: -909003617
+      school_deco_1_81: -1093148079
+      school_deco_1_124: 2090505586
+      school_deco_1_101: 1885663937
+      school_deco_1_9: -846393638
+      school_deco_1_54: -279413579
+      school_deco_1_62: -659586248
+      school_deco_1_95: -522812463
+      school_deco_1_41: 1553388985
+      school_deco_1_18: -397963505
+      school_deco_1_129: -1685334531
+      school_deco_1_83: -291707526
+      school_deco_1_76: 38161971
+      school_deco_1_35: -1349615014
+      school_deco_1_92: 1518923945
+      school_deco_1_91: -2089605918
+      school_deco_1_56: 1845575989
+      school_deco_1_10: -759443302
+      school_deco_1_19: -2116133048
+      school_deco_1_60: -1324033482
+      school_deco_1_51: -938082619
+      school_deco_1_98: -1983379113
+      school_deco_1_77: 1738575685
+      school_deco_1_115: 331268166
+      school_deco_1_106: 752280589
+      school_deco_1_87: -1910505847
+      school_deco_1_25: 669286922
+      school_deco_1_80: 261525768
+      school_deco_1_131: -1814535103
+      school_deco_1_11: 18182604
+      school_deco_1_105: -1366222195
+      school_deco_1_86: 1727982319
+      school_deco_1_109: -850836878
+      school_deco_1_84: 1840582369
+      school_deco_1_52: -90966262
+      school_deco_1_123: 222646408
+      school_deco_1_2: -1481562504
+      school_deco_1_113: -1023357232
+      school_deco_1_22: -404902382
+      school_deco_1_90: -1710428204
+      school_deco_1_85: 303949548
+      school_deco_1_26: -2098502012
+      school_deco_1_97: 1083428141
+      school_deco_1_38: 2132803937
+      school_deco_1_94: 14932783
+      school_deco_1_0: -1361641871
+      school_deco_1_37: 844754852
+      school_deco_1_6: -39148628
+      school_deco_1_79: -496656791
+      school_deco_1_119: 1979867508
+      school_deco_1_53: -882525494
+      school_deco_1_64: 1601390007
+      school_deco_1_125: -967921692
+      school_deco_1_46: 256542032
+      school_deco_1_55: -1325008831
+      school_deco_1_30: -1728908221
+      school_deco_1_44: 599764650
+      school_deco_1_111: 994035173
+      school_deco_1_32: 577256366
+      school_deco_1_63: -177783988
+      school_deco_1_5: -1307957916
+      school_deco_1_13: 1405295159
+      school_deco_1_59: -113022754
+      school_deco_1_43: 1566937658
+      school_deco_1_36: -1677889270
+      school_deco_1_74: 803249819
+      school_deco_1_67: -1205706031
+      school_deco_1_42: -2139531518
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
