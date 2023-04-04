@@ -23,6 +23,8 @@ public class PlayerAtack : MonoBehaviour
     
         if (Input.GetKeyDown("space") && canAtack)
         {
+            Animator.SetBool("isJumping", false);
+            Animator.SetBool("isWalking", false);
             Animator.SetBool("isAtacking", true); 
             canAtack = false;
             timer = 0f;
