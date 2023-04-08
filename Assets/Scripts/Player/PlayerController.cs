@@ -57,7 +57,6 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-
         Animator.SetBool("isJumping", false);
         if (collision.gameObject.name == "UnderFloor" || 
             collision.gameObject.name == "HouseFloor" ||

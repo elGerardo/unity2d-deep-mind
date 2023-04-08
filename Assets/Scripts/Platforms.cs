@@ -27,7 +27,7 @@ public class Platforms : MonoBehaviour
 
         if(timer >= limitTime)
         {
-            Debug.Log("is dowing...");
+            //Debug.Log("is dowing...");
             transform.position = new Vector3(transform.position.x, initPosition.y - y, transform.position.z);
 
             if (timer >= limitTime * 2)
