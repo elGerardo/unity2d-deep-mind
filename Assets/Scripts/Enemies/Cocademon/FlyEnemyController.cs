@@ -42,6 +42,7 @@ public class FlyEnemyController : MonoBehaviour
             Animator.SetBool("isAtacking", true);
             Instantiate(Bullet, BulletParent.transform.position, Quaternion.identity);
             nextFireTime = Time.time + fireRate;
+
         }
         else
         {

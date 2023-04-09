@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 //using System.Diagnostics;
 using UnityEngine;
 
@@ -21,6 +22,7 @@ public class GuardianController : MonoBehaviour
     private Animator Animator;
 
     public GameObject MainPlayer;
+    private PlayerLife playerLife;
 
     [SerializeField]
     private PlayerController playerController;
@@ -28,6 +30,7 @@ public class GuardianController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerLife = FindObjectOfType<PlayerLife>();
         MainPlayer = GameObject.FindGameObjectWithTag("Player");
         Animator = GetComponent<Animator>();
         Player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -89,7 +92,8 @@ public class GuardianController : MonoBehaviour
                         Animator.SetBool("isAtacking", true);
                         playerCanBeAtacked = true;
                         atackTimer = 0f;
-                        //asdasd
+                        //damaged
+                        playerLife.lifes -= 1;
                     }
 
                     if (playerCanBeAtacked && atackTimer >= 0.3 && atackTimer < 0.415)

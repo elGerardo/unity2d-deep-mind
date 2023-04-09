@@ -7,6 +7,10 @@ TagManager:
   - Enemy
   - SchoolFloor
   - Cure
+  - wood
+  - metal
+  - block
+  - grass
   layers:
   - Default
   - TransparentFX

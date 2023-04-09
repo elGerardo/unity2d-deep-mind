@@ -16,9 +16,8 @@ public class AddLife : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            Debug.Log("adding life");
-            playerLife.lifes += 1; // Incrementa la vida en el otro script
-            Destroy(Cure); // Destruye el objeto "cure"
+            playerLife.lifes += 1;
+            Destroy(Cure);
         }
     }
 }
