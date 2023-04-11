@@ -30,7 +30,7 @@ public class BulletEnemy : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            FindObjectOfType<PlayerController>().isDamaged = true;
+            //FindObjectOfType<PlayerController>().isDamaged = true;
             playerLife.lifes -= 1;
             timerAtacked = 0;
         }
@@ -40,7 +40,7 @@ public class BulletEnemy : MonoBehaviour
     {
         if (timerAtacked >= 0.5)
         {
-            FindObjectOfType<PlayerController>().isDamaged = false;
+            //FindObjectOfType<PlayerController>().isDamaged = false;
         }
         else
         {

@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-//using System.Diagnostics;
 using UnityEngine;
 
 public class GuardianController : MonoBehaviour
@@ -26,10 +24,12 @@ public class GuardianController : MonoBehaviour
 
     [SerializeField]
     private PlayerController playerController;
+    private EnemiesLife enemiesLife;
 
     // Start is called before the first frame update
     void Start()
     {
+        enemiesLife = GetComponent<EnemiesLife>();
         playerLife = FindObjectOfType<PlayerLife>();
         MainPlayer = GameObject.FindGameObjectWithTag("Player");
         Animator = GetComponent<Animator>();
@@ -38,7 +38,6 @@ public class GuardianController : MonoBehaviour
         atackTimer = 0f;
         playerCanBeAtacked = false;
         movingRight = true;
-       // InvokeRepeating("Patrol", 0f, Time.deltaTime);
     }
 
     // Update is called once per frame
@@ -68,65 +67,72 @@ public class GuardianController : MonoBehaviour
 
     void Update()
     {
-        float DistanceFromPlayer = Vector2.Distance(transform.position, Player.position);
-
-
-        if (DistanceFromPlayer < LineOfSite)
+        if (!enemiesLife.isDamaged)
         {
+            float DistanceFromPlayer = Vector2.Distance(transform.position, Player.position);
 
-            //change enemy direction
-            Vector3 direction = MainPlayer.transform.position - transform.position;
-            if (direction.x >= 0.0f) transform.localScale = new Vector3(1.5f, 1.5f, 1.0f);
-            else transform.localScale = new Vector3(-1.5f, 1.5f, 1.0f);
-
-            //validate atack or walk
-            if (DistanceFromPlayer < DistanceCanAtack) 
+            if (DistanceFromPlayer < LineOfSite)
             {
-                Collider2D[] objects = Physics2D.OverlapCircleAll(controlAtack.position, radiousAtack);
+                Animator.SetBool("isIdle", true);
+                Animator.SetBool("isWalking", false);
 
-                foreach (Collider2D value in objects)
+                //change enemy direction
+                Vector3 direction = MainPlayer.transform.position - transform.position;
+                if (direction.x >= 0.0f) transform.localScale = new Vector3(1.5f, 1.5f, 1.0f);
+                else transform.localScale = new Vector3(-1.5f, 1.5f, 1.0f);
+
+                //validate atack or walk
+                if (DistanceFromPlayer < DistanceCanAtack)
                 {
-                    
-                if (value.CompareTag("Player") && atackTimer >= 3 && !playerCanBeAtacked)
-                    { 
-                        Animator.SetBool("isAtacking", true);
-                        playerCanBeAtacked = true;
-                        atackTimer = 0f;
-                        //damaged
-                        playerLife.lifes -= 1;
+                    Collider2D[] objects = Physics2D.OverlapCircleAll(controlAtack.position, radiousAtack);
+
+                    foreach (Collider2D value in objects)
+                    {
+
+                        if (value.CompareTag("Player") && atackTimer >= 1.5 && !playerCanBeAtacked)
+                        {
+                            Debug.Log("is atacking...");
+                            Animator.SetBool("isAtacking", true);
+                            Animator.SetBool("isIdle", false);
+                            playerCanBeAtacked = true;
+                            atackTimer = 0f;
+                        }
+
+                        if (playerCanBeAtacked && atackTimer >= 0.3 && atackTimer < 0.415)
+                        {
+                            playerCanBeAtacked = false;
+                            playerLife.TakeHit();
+                        }
+
+                        if (atackTimer >= 0.415)
+                        {
+                            Animator.SetBool("isIdle", true);
+                            Animator.SetBool("isAtacking", false);
+                        }
                     }
 
-                    if (playerCanBeAtacked && atackTimer >= 0.3 && atackTimer < 0.415)
-                    {
-                        playerCanBeAtacked = false;
-                        FindObjectOfType<PlayerController>().isDamaged = true;
-                    }
-
-                    if (atackTimer >= 0.415)
-                    {
-                        Animator.SetBool("isAtacking", false);
-                    }
                 }
-
+                else
+                {
+                    playerCanBeAtacked = false;
+                    Animator.SetBool("isIdle", true);
+                    Animator.SetBool("isAtacking", false);
+                    transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, Player.position.x, Speed * Time.deltaTime), transform.position.y);
+                }
             }
             else
             {
+                playerCanBeAtacked = false;
+                Animator.SetBool("isIdle", false);
+                Animator.SetBool("isWalking", true);
                 Animator.SetBool("isAtacking", false);
-                transform.position = new Vector2(Mathf.MoveTowards(transform.position.x, Player.position.x, Speed * Time.deltaTime), transform.position.y);
+                EnemyPatrol();
             }
-        }
-        else
-        {
-            Animator.SetBool("isAtacking", false);
-            EnemyPatrol();
-        }
 
-        if (atackTimer >= 0.5)
-        {
-            FindObjectOfType<PlayerController>().isDamaged = false;
-        }
 
-        atackTimer += Time.deltaTime;
+            atackTimer += Time.deltaTime;
+
+        }
 
     }
 

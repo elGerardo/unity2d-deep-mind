@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
+//using System.Diagnostics;
 //using System.Diagnostics;
 using UnityEngine;
 
@@ -15,31 +15,23 @@ public class PlayerController : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     private bool canJump;
-
-    public bool isDamaged;
-
+    public bool isDamaged = false;
+  
     // Start is called before the first frame update
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
-        isDamaged = false;
     }
 
-    
     // Update is called once per frame
     void Update()
     {
-        if(isDamaged)
+        if (!isDamaged)
         {
-            Animator.SetBool("isDamaged", true);
-        }
-        else
-        {
-            Animator.SetBool("isDamaged", false);
             Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
 
-            if(Animator.GetBool("isAtacking") == false && Animator.GetBool("isDamaged") == false && Animator.GetBool("isJumping") == false)
+            if (Animator.GetBool("isAtacking") == false && Animator.GetBool("isDamaged") == false && Animator.GetBool("isJumping") == false)
             {
                 Animator.SetBool("isWalking", Horizontal != 0.0f);
             }
@@ -51,8 +43,15 @@ public class PlayerController : MonoBehaviour
             {
                 Jump();
             }
-        }
 
+            if(!canJump && Input.GetKeyDown("space"))
+            {
+                Debug.Log("jump atacin");
+                Animator.SetBool("isAtacking", true);
+                Animator.SetBool("isJumping", false);
+                Animator.SetBool("isWalking", false);
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

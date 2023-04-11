@@ -23,9 +23,9 @@ public class PlayerAtack : MonoBehaviour
     
         if (Input.GetKeyDown("space") && canAtack)
         {
+            Animator.SetBool("isAtacking", true); 
             Animator.SetBool("isJumping", false);
             Animator.SetBool("isWalking", false);
-            Animator.SetBool("isAtacking", true); 
             canAtack = false;
             timer = 0f;
             Hit();
@@ -53,8 +53,7 @@ public class PlayerAtack : MonoBehaviour
             if (value.CompareTag("Enemy"))
             {
                 Debug.Log("player hiting...");
-                //value.transform.GetComponent<Enemy>().TakeHit(damageHit);
-                
+                value.GetComponent<EnemiesLife>().TakeHit();
             }
         }
     }
