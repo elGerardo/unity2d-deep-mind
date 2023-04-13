@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-//using System.Diagnostics;
-//using System.Diagnostics;
+
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
     private float inputX;
+
+    private GameObject globalLight; 
 
     public float Speed;
     public float JumpForce;
@@ -15,11 +17,14 @@ public class PlayerController : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     private bool canJump;
-    public bool isDamaged = false;
+    public bool isComingBoss;
+    public bool isWithBoss;
+    public bool isDamaged = false; 
   
     // Start is called before the first frame update
     void Start()
     {
+        globalLight = GameObject.Find("GlobalLight2D");
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
     }
@@ -36,8 +41,32 @@ public class PlayerController : MonoBehaviour
                 Animator.SetBool("isWalking", Horizontal != 0.0f);
             }
 
-            if (Horizontal < 0.0f) transform.localScale = new Vector3(-1f, 1.0f, 1.0f);
-            else if (Horizontal > 0.0f) transform.localScale = new Vector3(1f, 1.0f, 1.0f);
+            if (Horizontal < 0.0f)
+            {
+                transform.localScale = new Vector3(-1f, 1.0f, 1.0f);
+                if(isComingBoss && !isWithBoss)
+                {
+                    globalLight.GetComponent<Light2D>().intensity += 0.001f; 
+                }
+
+                if (isWithBoss && !isComingBoss)
+                {
+                    globalLight.GetComponent<Light2D>().intensity -= 0.001f;
+                }
+            }
+            else if (Horizontal > 0.0f)
+            {
+                transform.localScale = new Vector3(1f, 1.0f, 1.0f);
+                if(isComingBoss)
+                {
+                    globalLight.GetComponent<Light2D>().intensity -= 0.001f;
+                }
+
+                if (isWithBoss && !isComingBoss)
+                {
+                    globalLight.GetComponent<Light2D>().intensity += 0.001f;
+                }
+            }
 
             if (Input.GetKeyDown(KeyCode.W) && canJump && Animator.GetBool("isAtacking") == false)
             {
@@ -46,7 +75,6 @@ public class PlayerController : MonoBehaviour
 
             if(!canJump && Input.GetKeyDown("space"))
             {
-                Debug.Log("jump atacin");
                 Animator.SetBool("isAtacking", true);
                 Animator.SetBool("isJumping", false);
                 Animator.SetBool("isWalking", false);
@@ -72,7 +100,6 @@ public class PlayerController : MonoBehaviour
             canJump = true;
         }
     }
-
 
     private void FixedUpdate()
     {

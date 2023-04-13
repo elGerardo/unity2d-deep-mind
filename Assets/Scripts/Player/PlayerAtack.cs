@@ -50,10 +50,14 @@ public class PlayerAtack : MonoBehaviour
         foreach(Collider2D value in objects)
         {
 
-            if (value.CompareTag("Enemy"))
+            if(value.CompareTag("Enemy"))
             {
-                Debug.Log("player hiting...");
                 value.GetComponent<EnemiesLife>().TakeHit();
+            }
+
+            if(value.CompareTag("Boss"))
+            {
+                value.GetComponent<BossController>().TakeHit();
             }
         }
     }

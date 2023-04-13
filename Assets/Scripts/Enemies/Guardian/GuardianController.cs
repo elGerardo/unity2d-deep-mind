@@ -91,7 +91,6 @@ public class GuardianController : MonoBehaviour
 
                         if (value.CompareTag("Player") && atackTimer >= 1.5 && !playerCanBeAtacked)
                         {
-                            Debug.Log("is atacking...");
                             Animator.SetBool("isAtacking", true);
                             Animator.SetBool("isIdle", false);
                             playerCanBeAtacked = true;
