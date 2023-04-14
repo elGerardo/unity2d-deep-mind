@@ -1819,11 +1819,11 @@ MonoBehaviour:
   - {fileID: -6002791035202104043}
   - {fileID: 487300576640144517}
   - {fileID: -3871733246575778222}
-  m_FixedDuration: 0
+  m_FixedDuration: 1
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
-  m_DurationMode: 0
+  m_DurationMode: 1
   m_MarkerTrack: {fileID: 0}
 --- !u!114 &487300576640144517
 MonoBehaviour:
