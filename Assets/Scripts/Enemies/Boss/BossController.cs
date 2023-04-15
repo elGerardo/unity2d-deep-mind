@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour
 {
@@ -38,6 +39,10 @@ public class BossController : MonoBehaviour
         {
             StartCoroutine(TakeHitCoroutine());
             lifes -= 1;
+            if(lifes <= 0)
+            {
+                SceneManager.LoadScene("End");
+            }
         }
     }
 
