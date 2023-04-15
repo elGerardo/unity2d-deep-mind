@@ -26,12 +26,12 @@ public class BulletEnemy : MonoBehaviour
         Destroy(this.gameObject, 2);
     }    
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
             //FindObjectOfType<PlayerController>().isDamaged = true;
-            playerLife.lifes -= 1;
+            playerLife.TakeHit();
             timerAtacked = 0;
         }
     }

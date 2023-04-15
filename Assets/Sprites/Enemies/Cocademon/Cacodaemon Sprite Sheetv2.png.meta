@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: b93b4eb0dd5f2ca4d8e802fd3ef23fea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 201
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b30eb70042c4c498793bd0bdf6ea51
+      internalID: -2090843529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 201
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c79abab6881a76489a796b4350c4cb4
+      internalID: 1273486480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 201
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211d823aede728144bf8bf9269c41fa9
+      internalID: -457967290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8151c9cae56420d42a28980d7728524b
+      internalID: -954714261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 200
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c2a20fb86b96840a33506b7b87ea47
+      internalID: -618536049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 202
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b878590780df34bbb6a15b2da997bf
+      internalID: -86613690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 134
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96dcf001766a9f41a15bb9a8df1e118
+      internalID: -375322886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 133
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee54ee2a703414247bd798d68df79ce2
+      internalID: 1583264570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9000c759696c9bd459bf55d54b4ddf73
+      internalID: 1467270750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 133
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983a3e368664d5c46bd21de159d953a3
+      internalID: 504184598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 134
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ffc62051cb2e740867d5430b6011d3
+      internalID: 1252209426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 135
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e08d9bbb30f44787a90b2eb9259f3
+      internalID: -1830076222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 73
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c0cd687ddf40d449c5feefd2e0e582
+      internalID: 1317769443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 72
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20250c27bdd4fa045a05376603c29621
+      internalID: -1695110408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 73
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a07cc986f52a40b6494985c7cfbae
+      internalID: 1808430024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 73
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e6df49c14463d44beb397abd7807e7
+      internalID: 393101282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36fd098de4cc2e47952ab0a696a83b0
+      internalID: 1101318351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 8
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356f76f6285919f40aaf3a6f5f727176
+      internalID: -900859864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 9
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5837fd688ae46c4f960f63dddbbe1fb
+      internalID: 1032502183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 9
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6182e7eefcf00b458657e0096aa32d5
+      internalID: 807797114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 8
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e19ee15964ef774397eb2e701621fa9
+      internalID: -285920174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee762aa45e299b49bba7d3f3e4d076b
+      internalID: 1464379113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8b245761620f740b50f40897a2c7e7
+      internalID: -1064667100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cacodaemon Sprite Sheetv2_23
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1092fc4b25a9c43be6db28992e41d0
+      internalID: 110990713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cacodaemon Sprite Sheetv2_2: -457967290
+      Cacodaemon Sprite Sheetv2_16: 1101318351
+      Cacodaemon Sprite Sheetv2_4: -618536049
+      Cacodaemon Sprite Sheetv2_23: 110990713
+      Cacodaemon Sprite Sheetv2_9: 504184598
+      Cacodaemon Sprite Sheetv2_7: 1583264570
+      Cacodaemon Sprite Sheetv2_13: -1695110408
+      Cacodaemon Sprite Sheetv2_20: -285920174
+      Cacodaemon Sprite Sheetv2_3: -954714261
+      Cacodaemon Sprite Sheetv2_17: -900859864
+      Cacodaemon Sprite Sheetv2_14: 1808430024
+      Cacodaemon Sprite Sheetv2_8: 1467270750
+      Cacodaemon Sprite Sheetv2_15: 393101282
+      Cacodaemon Sprite Sheetv2_1: 1273486480
+      Cacodaemon Sprite Sheetv2_10: 1252209426
+      Cacodaemon Sprite Sheetv2_6: -375322886
+      Cacodaemon Sprite Sheetv2_5: -86613690
+      Cacodaemon Sprite Sheetv2_0: -2090843529
+      Cacodaemon Sprite Sheetv2_11: -1830076222
+      Cacodaemon Sprite Sheetv2_19: 807797114
+      Cacodaemon Sprite Sheetv2_22: -1064667100
+      Cacodaemon Sprite Sheetv2_21: 1464379113
+      Cacodaemon Sprite Sheetv2_12: 1317769443
+      Cacodaemon Sprite Sheetv2_18: 1032502183
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

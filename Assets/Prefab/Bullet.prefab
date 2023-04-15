@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
+  bullet: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!50 &-3818663851244206437
 Rigidbody2D:
   serializedVersion: 4
@@ -130,8 +132,8 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 5110150426891611090}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_Material: {fileID: 6200000, guid: 6a42780902338b64d86f99b16b6d157b, type: 2}
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

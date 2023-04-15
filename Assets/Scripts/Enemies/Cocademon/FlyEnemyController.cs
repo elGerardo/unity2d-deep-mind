@@ -7,6 +7,8 @@ public class FlyEnemyController : MonoBehaviour
     public float Speed;
     public float LineOfSite;
 
+    public SpriteRenderer bossRenderer;
+    public Color attackColor;
     public float fireRate = 1f;
     private float nextFireTime;
     public float ShootingRange;
@@ -29,7 +31,7 @@ public class FlyEnemyController : MonoBehaviour
     void Update()
     {
         float DistanceFromPlayer = Vector2.Distance(Player.position, transform.position);
-        if (DistanceFromPlayer < LineOfSite && DistanceFromPlayer > ShootingRange)
+        if (DistanceFromPlayer < LineOfSite && DistanceFromPlayer > ShootingRange && !Animator.GetBool("isDie"))
         {
             Vector3 direction = MainPlayer.transform.position - transform.position;
             if (direction.x >= 0.0f) transform.localScale = new Vector3(2.5f, 2.5f, 1.0f);
