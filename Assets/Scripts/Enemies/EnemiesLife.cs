@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemiesLife : MonoBehaviour
 {
     public int lifes;
-    public GameObject Enemy; // Referencia al objeto del jugador que se destruirá al perder todas las vidas
+    public GameObject Enemy;
     private Animator animator;
     private float timer;
     public bool isDamaged;

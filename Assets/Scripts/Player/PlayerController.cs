@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isDamaged)
+        if (!isDamaged && !Animator.GetBool("isDie"))
         {
             Horizontal = Input.GetAxisRaw("Horizontal") * Speed;
 
@@ -80,6 +80,16 @@ public class PlayerController : MonoBehaviour
                 Animator.SetBool("isWalking", false);
             }
         }
+
+        if(Animator.GetBool("isDie"))
+        {
+            if (Input.GetKeyDown("space")) Reset();
+        }
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

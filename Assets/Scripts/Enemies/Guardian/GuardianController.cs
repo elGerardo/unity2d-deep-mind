@@ -22,6 +22,9 @@ public class GuardianController : MonoBehaviour
     public GameObject MainPlayer;
     private PlayerLife playerLife;
 
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip atackSound;
+
     [SerializeField]
     private PlayerController playerController;
     private EnemiesLife enemiesLife;
@@ -29,6 +32,7 @@ public class GuardianController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         enemiesLife = GetComponent<EnemiesLife>();
         playerLife = FindObjectOfType<PlayerLife>();
         MainPlayer = GameObject.FindGameObjectWithTag("Player");
@@ -99,6 +103,7 @@ public class GuardianController : MonoBehaviour
 
                         if (playerCanBeAtacked && atackTimer >= 0.3 && atackTimer < 0.415)
                         {
+                            audioSource.PlayOneShot(atackSound);
                             playerCanBeAtacked = false;
                             playerLife.TakeHit();
                         }

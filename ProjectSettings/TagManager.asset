@@ -12,6 +12,12 @@ TagManager:
   - block
   - grass
   - Boss
+  - life5
+  - life4
+  - life3
+  - life2
+  - life1
+  - life0
   layers:
   - Default
   - TransparentFX

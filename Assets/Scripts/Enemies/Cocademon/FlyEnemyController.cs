@@ -18,10 +18,13 @@ public class FlyEnemyController : MonoBehaviour
     private Transform Player;
     private Animator Animator;
     public GameObject MainPlayer;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip atackSound;
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         MainPlayer = GameObject.FindGameObjectWithTag("Player");
         Player = GameObject.FindGameObjectWithTag("Player").transform;
         Animator = GetComponent<Animator>();
@@ -42,6 +45,7 @@ public class FlyEnemyController : MonoBehaviour
         else if (DistanceFromPlayer <= ShootingRange && nextFireTime < Time.time)
         {
             Animator.SetBool("isAtacking", true);
+            audioSource.PlayOneShot(atackSound);
             Instantiate(Bullet, BulletParent.transform.position, Quaternion.identity);
             nextFireTime = Time.time + fireRate;
 
