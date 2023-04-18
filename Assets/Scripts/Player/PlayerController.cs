@@ -97,6 +97,7 @@ public class PlayerController : MonoBehaviour
         Animator.SetBool("isJumping", false);
         if (collision.gameObject.name == "UnderFloor" || 
             collision.gameObject.name == "HouseFloor" ||
+            collision.gameObject.name == "Platform" ||
             collision.gameObject.name == "SchoolFloor" ||
             collision.gameObject.name == "Pl1" ||
             collision.gameObject.name == "Pl2" ||
